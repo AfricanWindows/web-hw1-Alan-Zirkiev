@@ -1,0 +1,444 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+/* -------------------------HEADER------------------------- */
+header {
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+header span {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 25%;
+    width: 200px;
+    margin-right: 32px;
+    color: #612999;
+}
+
+header img {
+    border-radius: 20%;
+    margin-right: 8px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+header nav a {
+    color: #612999;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+header nav .dont-split {
+    width: 154px;
+}
+
+header nav .active {
+    font-weight: 700;
+}
+
+header nav a:hover {
+    font-weight: 700;
+}
+
+/* -------------------------HEADER FINISHED------------------------- */
+
+/* -------------------------BIG IMAGE------------------------- */
+.big-image {
+    position: relative;
+}
+
+.big-image .the-text {
+    position: absolute;
+    top: 0px;
+    margin: 32px;
+    width: 448px;
+}
+
+.big-image h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #612999;
+}
+
+.big-image p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+/* -------------------------BIG IMAGE FINISHED------------------------- */
+
+/* -------------------------ABOUT------------------------- */
+.about {
+    display: flex;
+    margin-left: 32px;
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #612999;
+}
+
+.about p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 141%;
+    letter-spacing: 0%;
+    text-align: justify;
+
+}
+
+/* -------------------------ABOUT FINISHED------------------------- */
+
+/* -------------------------POPULAR------------------------- */
+.popular {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.popular>.wrapper>h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #612999;
+    margin-bottom: 32px;
+}
+
+.popular .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.popular .card {
+    background-color: #EFECFF;
+    position: relative;
+    width: 376px;
+    height: 496px;
+    border-radius: 38px;
+}
+
+.popular .card .image-in-card.m1 {
+    background-color: blueviolet;
+    background-image: url("../images/card-img-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    object-fit: cover;
+    width: 376px;
+    height: 276px;
+    border-radius: 38px;
+}
+
+.popular .card .image-in-card.m2 {
+    background-color: blueviolet;
+    background-image: url("../images/card-img-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    object-fit: cover;
+    width: 376px;
+    height: 276px;
+    border-radius: 38px;
+}
+
+.popular .card .image-in-card.m3 {
+    background-color: blueviolet;
+    background-image: url("../images/card-img-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    object-fit: cover;
+    width: 376px;
+    height: 276px;
+    border-radius: 38px;
+}
+
+.popular .card .image-in-card.m4 {
+    background-color: blueviolet;
+    background-image: url("../images/card-img-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    object-fit: cover;
+    width: 376px;
+    height: 276px;
+    border-radius: 38px;
+}
+
+
+.popular .card h1 {
+    margin-top: 21px;
+    margin-left: 32px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+
+}
+
+.popular .card p {
+    margin-top: 7px;
+    margin-left: 32px;
+    width: 315px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.popular .card h2 {
+    color: #612999;
+    position: absolute;
+    bottom: 36px;
+    margin-left: 32px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.popular .card .abs-heart {
+    background-color: #EFECFF;
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 35px;
+    right: 42px;
+    border-radius: 50%;
+}
+
+.popular .abs-heart img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popular .card .abs-basket {
+    background-color: #612999;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    right: 51px;
+    bottom: 27px;
+    border-radius: 50%;
+}
+
+.popular .abs-basket img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* -------------------------POPULAR FINISHED------------------------- */
+
+/* -------------------------FOOTER------------------------- */
+footer {
+    background-color: #EFECFF;
+    margin-top: 32px;
+    min-height: 287px;
+    padding-left: 32px;
+    padding-top: 32px;
+    white-space: nowrap;
+
+}
+
+footer .inl-block {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-right: 150px;
+}
+
+footer .inl-block h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    margin-top: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #333333;
+}
+
+footer .social-icons {
+    margin-top: 24px;
+}
+
+footer .social-icons img {
+    margin-right: 24px;
+}
+
+footer p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #333333;
+    margin-top: 16px;
+}
+
+/* -------------------------FOOTER FINISHED------------------------- */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ADDITION FOR SECOND PAGE CSS: */
+
+/* -------------------------THREE IMAGES------------------------- */
+
+.three-images {
+    gap: 32px;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 32px;
+}
+
+.three-images img {
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid #E6DBFE;
+}
+
+/* -------------------------THREE IMAGES FINISHED------------------------- */
+
+/* -------------------------LIST OF BOMBS------------------------- */
+
+.list-of-bombs {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.list-of-bombs h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #612999;
+}
+
+.list-of-bombs .icon-bg {
+    background-color: #612999;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-of-bombs ul {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.list-of-bombs li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.list-of-bombs li span {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+/* -------------------------LIST OF BOMBS FINISHED------------------------- */
+
+/* -------------------------YOUR CHOISE------------------------- */
+
+.choise {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.choise .the-video {
+    background-color: #000000;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.choise h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #612999;
+}
+
+/* -------------------------YOUR CHOISE FINISHED------------------------- */
